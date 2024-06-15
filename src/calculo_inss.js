@@ -45,6 +45,7 @@ const readline = require('readline')
             case salary > 7786.02:
                 inssValue = 908.85
                 console.log(`O valor descontado de INSS foi de R$${inssValue} reais.`)
+                break
         }
 
         input.close()
